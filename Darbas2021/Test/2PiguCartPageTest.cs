@@ -18,7 +18,7 @@ namespace Darbas2021.Test
             page.LogInProcedure("testamailas@gmail.com", "test2021");
         }
         [Order(2)]
-        [Test, Category("Regression Testing"), Category("Regression ")]
+        [Test, Category("Regression Testing")]
         public static void PiguPagecartItemRemoval()
         {    
             LogInToPage();
